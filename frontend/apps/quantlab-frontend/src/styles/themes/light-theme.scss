@@ -1,0 +1,9 @@
+@use "../tokens/colors" as colors;
+
+.light-theme {
+  --ql-color-background: #{colors.$gray-50};
+  --ql-color-surface: #{colors.$white};
+  --ql-color-text-primary: #{colors.$gray-900};
+  --ql-color-text-secondary: #{colors.$gray-600};
+  --ql-color-border: #{colors.$gray-200};
+}

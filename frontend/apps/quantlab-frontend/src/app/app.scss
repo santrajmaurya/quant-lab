@@ -1,0 +1,47 @@
+@use "../styles/tokens/spacing";
+@use "../styles/tokens/radius";
+@use "../styles/tokens/elevation";
+
+.theme-demo {
+
+  padding: spacing.$xl;
+
+  background: var(--ql-color-background);
+
+  color: var(--ql-color-text-primary);
+
+  min-height: 100vh;
+
+}
+
+button {
+
+  background: var(--ql-color-primary);
+
+  color: white;
+
+  padding: spacing.$sm spacing.$lg;
+
+  border: none;
+
+  border-radius: radius.$md;
+
+  cursor: pointer;
+
+}
+
+.card {
+
+  margin-top: spacing.$xl;
+
+  padding: spacing.$lg;
+
+  background: var(--ql-color-surface);
+
+  border: 1px solid var(--ql-color-border);
+
+  border-radius: radius.$lg;
+
+  box-shadow: elevation.$level-2;
+
+}
