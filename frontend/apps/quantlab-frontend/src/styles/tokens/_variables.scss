@@ -1,0 +1,23 @@
+@use "./colors" as colors;
+@use "./spacing" as spacing;
+@use "./radius" as radius;
+@use "./typography" as typography;
+
+:root {
+  --ql-color-primary: #{colors.$primary};
+  --ql-color-secondary: #{colors.$secondary};
+
+  --ql-color-background: #{colors.$gray-50};
+  --ql-color-surface: #{colors.$white};
+
+  --ql-color-text-primary: #{colors.$gray-900};
+  --ql-color-text-secondary: #{colors.$gray-600};
+
+  --ql-color-border: #{colors.$gray-200};
+
+  --spacing-md: #{spacing.$md};
+
+  --radius-md: #{radius.$md};
+
+  --font-family: #{typography.$font-family-base};
+}
