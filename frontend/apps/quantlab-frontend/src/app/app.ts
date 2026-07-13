@@ -1,11 +1,17 @@
 import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
+/**
+ * Application shell component.
+ *
+ * NOTE: Per QLAB-11 requirements, this component contains no business logic
+ * and only renders the `RouterOutlet` so routes render the correct pages.
+ */
 @Component({
-  imports: [],
+  standalone: true,
+  imports: [RouterOutlet],
   selector: 'app-root',
   templateUrl: './app.html',
-  styleUrl: './app.scss',
+  styleUrls: ['./app.scss'],
 })
-export class App {
-  protected title = 'quantlab-frontend';
-}
+export class App {}
