@@ -1,0 +1,49 @@
+
+---
+
+# 2. CONTRIBUTING.md
+
+```markdown
+# Contributing
+
+## Branch Strategy
+
+feature/QLAB-xx-description
+
+bugfix/...
+
+hotfix/...
+
+---
+
+## Commit Convention
+
+feat:
+
+fix:
+
+docs:
+
+refactor:
+
+style:
+
+test:
+
+build:
+
+ci:
+
+chore:
+
+---
+
+## Pull Requests
+
+Every PR must:
+
+- Reference Jira Story
+- Pass CI
+- Pass Lint
+- Pass Tests
+- Include screenshots (UI)
