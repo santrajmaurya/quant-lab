@@ -1,0 +1,11 @@
+{
+  "name": "quantlab-frontend-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/quantlab-frontend-e2e/src",
+  "implicitDependencies": [
+    "quantlab-frontend"
+  ],
+  "// targets": "to see all targets run: nx show project quantlab-frontend-e2e --web",
+  "targets": {}
+}
